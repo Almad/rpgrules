@@ -42,7 +42,7 @@ setup(
         'setuptools>=0.6b1',
     ],
     setup_requires = [
-#        'setuptools_git', # TODO: add dummy to pypi?
+        'setuptools_dummy',
     ],
 )
 
