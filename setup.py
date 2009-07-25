@@ -1,24 +1,18 @@
 from setuptools import setup, find_packages
-import djangobaselibrary
-
-# all fields marked with TODO: REPLACE
-# must be filled with some meanigful values
+import rpgrules
 
 setup(
-    name = 'djangobaselibrary',
+    name = 'djangorpgrules',
     version = djangobaselibrary.__versionstr__,
-    description = 'Django Base Library', # TODO: REPLACE
+    description = 'RPG Rules',
     long_description = '\n'.join((
-        'Django Base Library',
+        'RPG rules',
         '',
-        'this project (python module) is meant as a template',
-        'for any centrumholdings django based',
-        '(even non-django, pure python) libraries',
+        'See ya later',
     )),
-    author = 'centrum holdings s.r.o', # TODO: REPLACE
-    author_email='devel@centrumholdings.com', # TODO: REPLACE
-    license = 'BSD', # TODO: REPLACE
-    url='http://git.netcentrum.cz/projects/django/GIT/django-base-library.git/', # TODO: REPLACE
+    author = 'Almad',
+    author_email='bugs@almad.net',
+    license = 'BSD',
 
     packages = find_packages(
         where = '.',
@@ -27,7 +21,6 @@ setup(
 
     include_package_data = True,
 
-    # TODO: REPLACE
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
