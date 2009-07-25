@@ -14,8 +14,8 @@ DISABLE_CACHE_TEMPLATE = DEBUG
 
 
 DATABASE_ENGINE = 'sqlite3'
-DATABASE_NAME = join(gettempdir(), 'djangobaselibary_unit_project.db')
-TEST_DATABASE_NAME =join(gettempdir(), 'test_unit_project.db')
+DATABASE_NAME = join(gettempdir(), 'rpgrules.db')
+TEST_DATABASE_NAME =join(gettempdir(), 'rpgrules.db')
 DATABASE_USER = ''
 DATABASE_PASSWORD = ''
 DATABASE_HOST = ''
@@ -24,12 +24,12 @@ DATABASE_PORT = ''
 
 TIME_ZONE = 'Europe/Prague'
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'cs'
 
 SITE_ID = 1
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = '88b-01f^x4lh$-s5-hdccnicekg07)niir2g6)93!0#k(=mfv$'
+SECRET_KEY = '88b-01f^x4asdflh$-s5-hdccnicekg07)niir2g6)93!0#k(=mfv$'
 
 # TODO: Fix logging
 # init logger

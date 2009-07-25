@@ -37,7 +37,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 )
 
 INSTALLED_APPS = (
-    'djangobaselibrary.sample',
+    'rpgrules',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
