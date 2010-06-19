@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 import rpgrules
 
 setup(
-    name = 'djangorpgrules',
-    version = djangobaselibrary.__versionstr__,
+    name = 'rpgrules',
+    version = rpgrules.__versionstr__,
     description = 'RPG Rules',
     long_description = '\n'.join((
         'RPG rules',
